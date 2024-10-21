@@ -1,0 +1,24 @@
+.wholePage{
+    margin: 0px;
+    background-color:rgb(250, 248, 239);
+    /* so color is entire page; changes to fit device on: */
+    width: 100vw;
+    height: 100vh;
+    /* gonna make this a flexible component */
+    display: flex;
+    /* centered them halfway down pg */
+    align-items: top;
+    /* justified it left to right */
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title{
+    align-items: top;
+}
+
+.inner-row{
+    align-items: center;
+    justify-content: center;
+}
